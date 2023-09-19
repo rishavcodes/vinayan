@@ -3,9 +3,9 @@ import VinayanLogo from '../assets/images/vinayan-logoo.jpg'
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
-  return (
-    <>
-        <footer class="bg-white dark:bg-gray-900">
+    return (
+        <>
+            <footer class="bg-white dark:bg-gray-900">
                 <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                     <div class="md:flex md:justify-between">
                         <div class="mb-6 md:mb-0">
@@ -57,8 +57,8 @@ const Footer = () => {
                     </div>
                 </div>
             </footer>
-    </>
-  )
+        </>
+    )
 }
 
 export default Footer
